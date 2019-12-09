@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  width: 90%;
+}
+
 /* --------------- Base Header - Footer Styles -------------- */
 
 header,
@@ -115,7 +119,17 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
+.header-devider {
+  width: 100%;
+}
+
 header nav {
+  width: 60%;
+  margin: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -123,20 +137,41 @@ header nav {
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+header nav ul li {
+  padding: 0 30px;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer h4 {
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
 }
 
 footer .social-icon {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 
-footer .social-icon p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+footer h5 {
+  margin: 50px 0 10px 0;
 }
 
 /* --------------- Mobile Styles - Homepage -------------- */
@@ -148,13 +183,32 @@ footer .social-icon p {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  margin: 55px 0 335px 0;
+}
+
 /* Aside */
 
 aside {
+  padding: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.form-description h4 {
+  margin: 0;
+}
+
+.form-description p {
+  margin: 15px 0 40px 0;
+}
+
+.form h4,
+.form input {
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 /* Features */
@@ -165,11 +219,26 @@ aside {
   flex-flow: row wrap;
 }
 
-.features .features-items {
+.features h3 {
+  margin: 50px 0 70px 0;
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features article {
+  width: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features-item-description {
+  margin: 40px 0 60px 0;
 }
 
 /* Reviews */
@@ -180,12 +249,30 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews h3 {
+  margin: 55px 0  35px 0;
+}
+
+.reviews h4 {
+  width: 50%;
+  margin: 20px 0 25px;
+}
+
+.reviews p {
+  margin: 0 0 50px 0;
+}
+
 /* --------------- Mobile Styles - About page -------------- */
 .mission {
+  margin: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.mission h2 {
+  margin: 0;
 }
 
 .mission-content {
@@ -195,11 +282,25 @@ aside {
   flex-flow: row wrap;
 }
 
+.mission-content p {
+  margin: 20px 0 0 0;
+}
+
 .contact-section {
+  margin: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-section h2,
+.contact-section p {
+  margin: 0;
+}
+
+.contact-section h4 {
+  margin: 20px 0 15px 0;
 }
 
 /* --------------- Mobile Styles - FAQ page -------------- */
@@ -215,6 +316,18 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin: 50px 0 0 0;
+}
+
+.faq h5 {
+  margin:50px 0 15px 0;
+}
+
+.faq p {
+  margin: 0;
 }
 
 /* ==========================================================================
