@@ -150,9 +150,13 @@ h5 {
 
 p {}
 
-img {}
+img {
+  width: 100%;
+}
 
-figure {}
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -187,6 +191,14 @@ header {
   width: 100%;
   margin: 10px 0 20px 0;
   border-top: 1px solid #3a3a3a;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
@@ -240,20 +252,23 @@ footer h5 {
 
 /* --------------- Mobile Styles - Homepage -------------- */
 
-/* Hero Area */
+/* Hero Area - Mobile */
 
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding: 50px 0;
+  background: url('../img/hero-img.jpg') center no-repeat #333;
+  background-size: cover;
+  padding: 50px 0 0 0;
 }
 
 .hero-area h1 {
+  line-height: 1.2;
   margin: 0;
 }
 
-/* Aside */
+/* Aside - Mobile */
 
 aside {
   background-color: #527158;
@@ -301,12 +316,14 @@ aside {
   text-align: center;
 }
 
-/* Features */
+/* Features - Mobile */
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-img.jpg') center no-repeat #333;
+  background-size: cover;
   padding: 50px 0 10px 0;
 }
 
@@ -323,10 +340,20 @@ aside {
 .features article {
   width: 55%;
   margin: 40px 0 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .fontawesome-icon {
-  margin: 0;
+  width: 70px;
+  height: 70px;
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features-item-description {
@@ -334,7 +361,7 @@ aside {
   margin: 0;
 }
 
-/* Reviews */
+/* Reviews - Mobile */
 
 .reviews {
   background-color: #2a423a;
@@ -348,12 +375,19 @@ aside {
   margin: 0 0 35px 0;
 }
 
+.reviews figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .reviews h4 {
-  width: 70%;
   margin: 20px 0 25px;
 }
 
 .reviews p {
+  font-size: 0.875em;
   margin: 0;
 }
 
@@ -548,6 +582,10 @@ header .content-wrapper {
   justify-content: space-between;
 }
 
+header figure {
+  width: 35%;
+}
+
 .header-divider {
   width: 0%;
 }
@@ -600,6 +638,12 @@ aside .form {
   margin: 40px 0 0 0;
 }
 
+.fontawesome-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 0 30px 0;
+}
+
 .features-item-description {
   width: 50%;
 }
@@ -611,11 +655,19 @@ aside .form {
 
 .reviews article {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.reviews article div {
-  width: 50%;
+.reviews figure {
+  width: 43%;
+}
+
+.reviews div {
+  width: 55%;
+}
+
+.reviews h4 {
+  margin: 0 0 15px 0;
 }
 
 /* ----- tablet - About page ----- */
@@ -722,6 +774,11 @@ footer p {
   }
 
 /* ------ desktop - homepage ------ */
+/* ----- desktop - header ----*/
+header figure {
+  width: 30%;
+}
+
 /* Hero area */
   .hero-area {
     padding: 50px 0;
@@ -744,6 +801,11 @@ footer p {
 /* features */
   .features article {
     flex-basis: 30%;
+  }
+
+/* reviews */
+  .reviews p {
+    font-size: 1.125em;
   }
 
 }
