@@ -704,6 +704,10 @@ aside .form {
   width: 40%;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .contact-section {
   padding: 100px 0;
 }
@@ -791,12 +795,12 @@ footer p {
     font-size: 1.125em;
   }
 
-/* ------ desktop - homepage ------ */
 /* ----- desktop - header ----*/
 header figure {
   width: 30%;
 }
 
+/* ------ desktop - homepage ------ */
 /* Hero area */
   .hero-area {
     padding: 50px 0;
@@ -828,6 +832,10 @@ header figure {
 
   .reviews p {
     font-size: 1.125em;
+  }
+/* --------- desktop - about page ------ */
+  .map figure {
+    padding-bottom: 40%;
   }
 
 }
