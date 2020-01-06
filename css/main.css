@@ -261,6 +261,7 @@ footer h5 {
   background: url('../img/hero-img.jpg') center no-repeat #333;
   background-size: cover;
   padding: 50px 0 0 0;
+  height: 500px;
 }
 
 .hero-area h1 {
@@ -552,7 +553,6 @@ aside {
 
 .content-wrapper {
   max-width: 640px;
-  width: 85%
 }
 
 h1 {
@@ -599,6 +599,7 @@ header nav {
 /* Hero area */
 .hero-area {
   padding: 100px 0;
+  height: 600px;
 }
 
 .hero-area h1 {
@@ -658,16 +659,17 @@ aside .form {
   justify-content: space-between;
 }
 
-.reviews figure {
-  width: 43%;
-}
-
-.reviews div {
-  width: 55%;
+.reviews article figure,
+.reviews article div {
+  width: 49%;
 }
 
 .reviews h4 {
   margin: 0 0 15px 0;
+}
+
+.reviews p {
+  line-height: 1.25;
 }
 
 /* ----- tablet - About page ----- */
@@ -804,6 +806,10 @@ header figure {
   }
 
 /* reviews */
+  .reviews article div {
+    width: 42%;
+  }
+
   .reviews p {
     font-size: 1.125em;
   }
