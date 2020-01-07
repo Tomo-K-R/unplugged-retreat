@@ -252,7 +252,7 @@ footer h5 {
 
 /* --------------- Mobile Styles - Homepage -------------- */
 
-/* Hero Area - Mobile */
+/* Mobile - Hero Area*/
 
 .hero-area {
   display: flex;
@@ -269,7 +269,7 @@ footer h5 {
   margin: 0;
 }
 
-/* Aside - Mobile */
+/* Mobile - Aside */
 
 aside {
   background-color: #527158;
@@ -317,7 +317,7 @@ aside {
   text-align: center;
 }
 
-/* Features - Mobile */
+/* Mobile - Features */
 
 .features {
   display: flex;
@@ -348,13 +348,12 @@ aside {
 }
 
 .fontawesome-icon {
-  width: 70px;
-  height: 70px;
-  margin: 0 0 40px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features-item-description {
@@ -362,7 +361,7 @@ aside {
   margin: 0;
 }
 
-/* Reviews - Mobile */
+/* Mobile - Reviews */
 
 .reviews {
   background-color: #2a423a;
@@ -612,7 +611,7 @@ header nav {
 
 /* ------ tablet - homepage ------ */
 
-/* Hero area */
+/* tablet - Hero area */
 .hero-area {
   padding: 100px 0;
   height: 600px;
@@ -622,7 +621,7 @@ header nav {
     width: 85%;
 }
 
-/* aside */
+/* tablet - aside */
 aside {
   padding: 50px 0;
 }
@@ -641,7 +640,7 @@ aside .form {
   width: 45%;
 }
 
-/* features */
+/* tablet - features */
 .features {
   padding: 100px 0;
 }
@@ -655,17 +654,11 @@ aside .form {
   margin: 40px 0 0 0;
 }
 
-.fontawesome-icon {
-  width: 90px;
-  height: 90px;
-  margin: 0 0 30px 0;
-}
-
 .features-item-description {
   width: 50%;
 }
 
-/* reviews */
+/* tablet - reviews */
 .reviews {
   padding: 100px 0;
   }
