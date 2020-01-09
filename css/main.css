@@ -166,7 +166,7 @@ address {
   width: 90%;
 }
 
-/* --------------- Base Header - Footer Styles -------------- */
+/* --------------- Base Header and Footer -------------- */
 
 header,
 footer {
@@ -265,9 +265,11 @@ footer h5 {
   margin: 0;
 }
 
-/* --------------- Mobile Styles - Homepage -------------- */
+/* --------------- Mobile styles here -------------- */
 
-/* Mobile - Hero Area*/
+/* --------------- mobile Styles - Homepage -------------- */
+
+/* Mobile - Hero Area */
 
 .hero-area {
   display: flex;
@@ -407,6 +409,9 @@ aside {
 }
 
 /* --------------- Mobile Styles - About page -------------- */
+
+/* Mobile - Mission */
+
 .mission {
   background-color: #527158;
   padding: 30px 0;
@@ -424,6 +429,8 @@ aside {
   margin: 20px 0 0 0;
 }
 
+/* Mobile - Map */
+
 .map figure {
   width: 100%;
   height: 0;
@@ -439,6 +446,8 @@ aside {
   top: 0;
   left: 0;
 }
+
+/* Mobile - Contact */
 
 .contact-section {
   background-color: #2a423a;
@@ -459,6 +468,7 @@ aside {
 }
 
 /* --------------- Mobile Styles - FAQ page -------------- */
+
 .faq {
   background-color: #527158;
   display: flex;
@@ -577,9 +587,9 @@ aside {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-/* tablet styles here */
+/* --------------- Tablet styles here -------------- */
 
-/* ------ tablet - general styles ------ */
+/* ------ tablet - general ------ */
 
 .content-wrapper {
   max-width: 640px;
@@ -624,7 +634,7 @@ header nav {
   width: 20%;
 }
 
-/* ------ tablet - homepage ------ */
+/* --------------- Tablet Styles - Homepage -------------- */
 
 /* tablet - Hero area */
 .hero-area {
@@ -698,6 +708,7 @@ aside .form {
 
 /* ----- tablet - About page ----- */
 
+/* tablet - mission */
 .mission {
   padding: 100px 0;
 }
@@ -712,9 +723,13 @@ aside .form {
   width: 45%;
 }
 
+/* tablet - map */
+
 .map figure {
   padding-bottom: 45%;
 }
+
+/* tablet - contact */
 
 .contact-section {
   padding: 100px 0;
@@ -782,9 +797,9 @@ footer .social-icon {
 
 }
 @media only screen and (min-width: 1200px) {
-/* desktop styles here */
+/* --------- desktop styles here ------------- */
 
-/* ------ desktop - general styles ------ */
+/* ------ desktop - general ------ */
 
   .content-wrapper {
     max-width: 960px;
@@ -817,7 +832,8 @@ header li {
 }
 
 /* ------ desktop - homepage ------ */
-/* Hero area */
+
+/* desktop - Hero area */
   .hero-area {
     padding: 50px 0;
   }
@@ -826,7 +842,7 @@ header li {
     width: 75%;
   }
 
-/* aside */
+/* desktop - aside */
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -836,7 +852,7 @@ header li {
   width: 33%;
   }
 
-/* features */
+/* desktop - features */
   .features h3 {
     font-size: 2.25em;
   }
@@ -845,7 +861,7 @@ header li {
     flex-basis: 30%;
   }
 
-/* reviews */
+/* desktop - reviews */
   .reviews h3 {
     font-size: 2.25em;
   }
@@ -858,20 +874,28 @@ header li {
   }
 
 /* --------- desktop - about page ------ */
+
+/* desktop - mission */
+
   .mission-content p {
     width: 47%;
     font-size: 1.125em;
   }
 
+/* desktop - map */
+
   .map figure {
     padding-bottom: 40%;
   }
+
+/* desktop - contact */
 
   .contact-section p {
     font-size: 1.125em;
   }
 
 /* --------- desktop - faq page ------ */
+
   .faq p {
     font-size: 1.125em;
   }
